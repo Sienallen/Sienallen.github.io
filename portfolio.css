@@ -9,8 +9,8 @@ body{
   font-weight: bold;
   width: 100%;
   height: 100vh;
-  margin: calc(50% - 50vw) calc(50% - 50vw);
-  padding: calc(50vw - 50%) calc(50vw - 50%);
+/*   margin: calc(50% - 50vw) calc(50% - 50vw);
+  padding: calc(50vw - 50%) calc(50vw - 50%); */
   background-image: url(Photos/IMG_4124.JPG);
   background-size: cover; 
   background-position: center;
@@ -91,7 +91,7 @@ nav ul li a:hover::after{
 
 #PFP {
   flex-basis: 35%;
-  height: 400px;
+  height: 600px;
   flex-shrink: 0;
 }
 
@@ -110,12 +110,57 @@ nav ul li a:hover::after{
   margin-left: 15px;
 }
 
-.about-title{
+h2{
   font-size: 40px;
+  margin-bottom: 0;
 }
 
 .about p {
+  margin-top: 0;
   font-size: 20px;
 }
 
 /* End of about section */
+
+/* Experience/Skills section */
+
+#Experiences-Skills{
+  background-color: black;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-top: 30px;
+  width: 100%;
+  height: 100vh;
+/*   margin: calc(50% - 50vw) calc(50% - 50vw); */
+/*   padding: calc(50vw - 50%) calc(50vw - 50%); */
+}
+
+
+
+
+/* End of Experience/Skills section */
+
+/* Scroll bar customization */
+
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1; 
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #888; 
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555; 
+}
+
+/* Scroll bar customization */
