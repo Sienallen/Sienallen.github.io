@@ -178,6 +178,67 @@ h2{
 
 /* End of Experience/Skills section */
 
+/* Project Section */
+
+#Projects-section{
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#Project-title{
+  margin: 0 75px;
+
+}
+#project-grid{
+  display: flex; 
+  flex-direction: row;
+  column-gap: 75px;
+  row-gap: 75px;
+  flex-wrap: wrap;
+  margin: 30px 75px;
+
+ /*  grid-template-columns: repeat(3, 300px); 
+  grid-gap: 75px; */
+}
+
+.projects{
+
+}
+
+.project-img{
+  height: 350px;
+  width: 300px;
+}
+
+#project-grid div{
+  width: 300px;
+  height: 350px;
+  background-color: aqua;
+}
+
+.layer{
+  position: absolute;
+  padding-top: 50px;
+  padding-left: 20px;
+  width: 280px;
+  height: 300px;
+  margin-top: 0;
+  color: rgba(0,0,0,0);;
+  background-color: rgba(0,0,0,0);
+  transition: .5s;
+}
+
+.layer:hover{
+  color: rgba(255,255,255,1);
+  background-color: rgba(0,0,0,.6);
+}
+
+/* End of Project Section */
+
+
+
+
+
+
 /* Scroll bar customization */
 
 /* width */
