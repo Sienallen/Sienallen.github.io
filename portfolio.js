@@ -2,7 +2,6 @@ var links = document.getElementsByClassName("tab-links");
 var conts = document.getElementsByClassName("tab-cont");
 
 function changeTab(newLink){
-  console.log(this);
   for(link of links){
     link.classList.remove("active-link");
   }
