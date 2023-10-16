@@ -200,10 +200,6 @@ h2{
   grid-gap: 75px; */
 }
 
-.projects{
-
-}
-
 .project-img{
   height: 350px;
   width: 300px;
@@ -234,8 +230,37 @@ h2{
 
 /* End of Project Section */
 
+/* Contact Info Section */
+
+#Contact-Info{
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  margin: 100px 75px;
+}
 
 
+#Contact-title{
+ margin-bottom: 50px;
+}
+
+#profiles{
+  display:grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+/* 
+@media (max-width: 768px){
+  profiles{
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 480){
+  profiles{
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
+ */
+/* End of Contact Info Section */
 
 
 
