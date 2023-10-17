@@ -243,9 +243,18 @@ h2{
 }
 
 #profiles{
-  display:grid;
-  grid-template-columns: repeat(3, 1fr);
+  display:flex;
+  flex-direction: column;
+  row-gap: 25px;
 }
+
+.logo{
+  width: 50px;
+  height: 50px;
+  object-fit: contain;
+}
+
+/* End of Contact Info Section */
 
 /* 
 @media (max-width: 768px){
