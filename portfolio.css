@@ -14,6 +14,10 @@ body{
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
+html{
+  scroll-behavior: smooth;
+}
+
 nav{
   display: flex;
   align-items: center; 
@@ -83,19 +87,19 @@ nav ul li a:hover::after{
 #about-section{
   display: flex;
   flex-direction: row;
+  flex-wrap: wrap;
   margin-top: 50px;
   font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 #PFP {
   flex-basis: 35%;
-  height: 600px;
   flex-shrink: 0;
 }
 
 #PFP img{
   width: 100%;
-  height: 600px;
+  height: 100%;
   border-radius: 15px;
   object-fit: contain;
 }
@@ -176,6 +180,23 @@ h2{
   display:block;
 }
 
+
+
+
+#Resume-button{
+  margin-bottom: 50px;
+  background-color: rgb(255, 0, 0);
+  color: white;
+  border-radius: 15px;
+  border: none;
+  height: 75px;
+  width: 200px;
+  cursor: pointer;
+  font-size: 30px;
+  font-weight: bold;
+
+}
+
 /* End of Experience/Skills section */
 
 /* Project Section */
@@ -232,7 +253,7 @@ h2{
 
 /* Contact Info Section */
 
-#Contact-Info{
+#Contact-section{
   font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   margin: 100px 75px;
 }
@@ -242,10 +263,32 @@ h2{
  margin-bottom: 50px;
 }
 
+
+.contact-list{
+  padding: 0;
+  margin: 0;
+  margin-bottom: 30px;
+  list-style-type: none;
+
+}
+
+#email{
+  background: url(Photos/iconmonstr-email-10-240.png) no-repeat ;
+  background-size: 28px;
+  background-position: 10px;
+  height:30px;
+  padding-top: 10px;
+  padding-left: 45px;
+
+}
+
+
+
+
 #profiles{
   display:flex;
-  flex-direction: column;
-  row-gap: 25px;
+  flex-direction: row;
+  column-gap: 35px;
 }
 
 .logo{
@@ -255,6 +298,14 @@ h2{
 }
 
 /* End of Contact Info Section */
+
+
+/* css for smaller screens */
+
+@media (max-width: 600px){
+  
+}
+
 
 /* 
 @media (max-width: 768px){
