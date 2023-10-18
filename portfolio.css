@@ -3,31 +3,53 @@ body{
   color: white;
 }
 
+/* Main Section */
 /* Header section */
+
 #header-container{
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: black;
+  margin-bottom: 0;
+}
+
+
+
+/* #header-container{ */
+#background-img{
+  margin-top: 0;
   font-weight: bold;
   width: 100%;
   height: 100vh;
   background-image: url(Photos/IMG_4124.JPG);
-  background-size: cover; 
+  background-size: 100%; 
   background-position: center;
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  background-attachment: fixed;
+  border-color: red;
+  padding-top: 1px;
 }
+
 
 html{
   scroll-behavior: smooth;
 }
 
 nav{
+  background-color: black;
   display: flex;
   align-items: center; 
   justify-content: space-between;
   flex-wrap: wrap;
-}
+  z-index: 100;
+} 
 
 #logo{
   margin-left: 15px;
   font-size: 25px;
+  margin-bottom: 0;
 }
 
 nav ul li{
@@ -256,6 +278,8 @@ h2{
 #Contact-section{
   font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   margin: 100px 75px;
+  width: 100%;
+  
 }
 
 
@@ -298,6 +322,11 @@ h2{
 }
 
 /* End of Contact Info Section */
+
+/* End of  Main Section */
+
+
+
 
 
 /* css for smaller screens */
