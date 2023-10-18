@@ -1,9 +1,11 @@
 body{
   background-color:rgb(60, 56, 56);
   color: white;
+  overflow-x: hidden;
 }
 
 /* Main Section */
+
 /* Header section */
 
 #header-container{
@@ -203,22 +205,6 @@ h2{
 }
 
 
-
-
-#Resume-button{
-  margin-bottom: 50px;
-  background-color: rgb(255, 0, 0);
-  color: white;
-  border-radius: 15px;
-  border: none;
-  height: 75px;
-  width: 200px;
-  cursor: pointer;
-  font-size: 30px;
-  font-weight: bold;
-
-}
-
 /* End of Experience/Skills section */
 
 /* Project Section */
@@ -307,6 +293,19 @@ h2{
 }
 
 
+#Resume-button{
+  margin-bottom: 50px;
+  background-color: rgb(255, 0, 0);
+  color: white;
+  border-radius: 15px;
+  border: none;
+  height: 75px;
+  width: 200px;
+  cursor: pointer;
+  font-size: 30px;
+  font-weight: bold;
+
+}
 
 
 #profiles{
