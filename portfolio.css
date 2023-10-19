@@ -1,3 +1,9 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+
+
 body{
   background-color:rgb(60, 56, 56);
   color: white;
@@ -10,28 +16,25 @@ body{
 
 #header-container{
   position: fixed;
-  top: 0;
-  left: 0;
   width: 100%;
   background-color: black;
-  margin-bottom: 0;
 }
 
 
 
 /* #header-container{ */
 #background-img{
-  margin-top: 0;
   font-weight: bold;
   width: 100%;
   height: 100vh;
   background-image: url(Photos/IMG_4124.JPG);
-  background-size: 100%; 
+  background-size: cover; 
   background-position: center;
+  background-repeat: no-repeat;
+ /*  background-color: black; */
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   background-attachment: fixed;
   border-color: red;
-  padding-top: 1px;
 }
 
 
@@ -49,9 +52,8 @@ nav{
 } 
 
 #logo{
-  margin-left: 15px;
+  margin: 25px;
   font-size: 25px;
-  margin-bottom: 0;
 }
 
 nav ul li{
@@ -83,8 +85,8 @@ nav ul li a:hover::after{
 }
 
 #intro{
-  margin-top: 225px;
-  margin-left: 100px;
+  padding-top: 225px;
+  padding-left: 100px;
 }
 
 #intro p{
@@ -112,13 +114,13 @@ nav ul li a:hover::after{
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  margin-top: 50px;
   font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  padding: 100px 30px 0 30px;
+/*   background-color: red; */
 }
 
 #PFP {
   flex-basis: 35%;
-  flex-shrink: 0;
 }
 
 #PFP img{
@@ -133,6 +135,7 @@ nav ul li a:hover::after{
   display: flex;
   flex-direction: column;
   margin-left: 15px;
+  padding: 30px;
 }
 
 h2{
@@ -149,21 +152,11 @@ h2{
 
 /* Experience/Skills section */
 
-#Experiences-Skills{
-  background-color: black;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-  margin-top: 30px;
-  width: 100%;
-  height: 100vh;
-/*   margin: calc(50% - 50vw) calc(50% - 50vw); */
-/*   padding: calc(50vw - 50%) calc(50vw - 50%); */
-}
 
 .tabs{
   display: flex;
   justify-content: space-around;
+  margin: 40px;
 
 }
 
@@ -211,19 +204,17 @@ h2{
 
 #Projects-section{
   font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+/*   background-color: blue */;
+  padding: 100px 30px 0 30px;
 }
 
-#Project-title{
-  margin: 0 75px;
 
-}
 #project-grid{
   display: flex; 
   flex-direction: row;
   column-gap: 75px;
   row-gap: 75px;
   flex-wrap: wrap;
-  margin: 30px 75px;
 
  /*  grid-template-columns: repeat(3, 300px); 
   grid-gap: 75px; */
@@ -263,8 +254,9 @@ h2{
 
 #Contact-section{
   font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-  margin: 100px 75px;
+  padding: 100px 75px;
   width: 100%;
+ /*  background-color: green; */
   
 }
 
