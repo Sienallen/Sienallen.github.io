@@ -23,19 +23,7 @@ body{
 
 
 /* #header-container{ */
-#background-img{
-  font-weight: bold;
-  width: 100%;
-  height: 100vh;
-  background-image: url(Photos/IMG_4124.JPG);
-  background-size: cover; 
-  background-position: center;
-  background-repeat: no-repeat;
- /*  background-color: black; */
-  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-  background-attachment: fixed;
-  border-color: red;
-}
+
 
 
 html{
@@ -84,20 +72,34 @@ nav ul li a:hover::after{
   width: 100%;
 }
 
-#intro{
-  padding-top: 225px;
-  padding-left: 100px;
+#background-img{
+  font-weight: bold;
+  width: 100%;
+  height: 100vh;
+  background-image: url(Photos/IMG_4124.JPG);
+  background-size: cover; 
+  background-position: center;
+  background-repeat: no-repeat;
+ /* background-color: black; */
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  background-attachment: fixed;
+  border-color: red;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
+
 
 #intro p{
   font-size: 35px;
   max-width: max-content;
   background-color: black;
-  margin: 0;
 }
 
 #intro h1{
-  font-size: 55px;
+  font-size: 100px;
   max-width: max-content;
   background-color: black;
   margin-top: 15px;
