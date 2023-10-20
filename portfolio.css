@@ -3,6 +3,10 @@
   margin: 0;
 }
 
+html{
+  overflow-x: hidden;
+}
+
 
 body{
   background-color:rgb(60, 56, 56);
@@ -13,6 +17,8 @@ body{
 /* Main Section */
 
 /* Header section */
+
+
 
 #header-container{
   position: fixed;
@@ -36,7 +42,7 @@ nav{
   align-items: center; 
   justify-content: space-between;
   flex-wrap: wrap;
-  z-index: 100;
+  z-index: 5;
 } 
 
 #logo{
@@ -324,10 +330,50 @@ h2{
 
 /* css for smaller screens */
 
-@media (max-width: 600px){
-  
+.Menu{
+  display: none;
+  height: 30px;
+  width: 30px;
 }
 
+
+@media (max-width: 600px){
+
+  /* Side bar css for small screen */
+  #Menu-out{
+    display: block;
+    padding: 0 40px;
+  }
+  #Menu-in{
+    display: block;
+  }
+
+  nav ul{
+    display: flex;
+    flex-direction: column;
+    row-gap: 30px;
+    background: red;
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: max-content;
+    height: 100vh;
+    padding-top: 20px;
+    padding-left: 10px;
+    margin-right: -200px;
+    z-index: 6;
+    transition: 0.5s;
+  }
+
+  /* End of Side bar css for small screen */
+
+  .tabs{
+    column-gap: 25px;
+  
+  }
+
+
+}
 
 /* 
 @media (max-width: 768px){

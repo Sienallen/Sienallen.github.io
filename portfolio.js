@@ -14,3 +14,12 @@ function changeTab(newLink){
   
   
 }
+
+var temp = document.getElementById("sideBar")
+function openMenu(){
+  temp.style.marginRight = "0px";
+}
+
+function closeMenu(){
+  temp.style.marginRight = "-200px";
+}
