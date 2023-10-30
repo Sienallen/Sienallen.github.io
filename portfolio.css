@@ -142,7 +142,6 @@ nav ul li a:hover::after{
   flex-basis: 60%;
   display: flex;
   flex-direction: column;
-  margin-left: 15px;
   padding: 30px;
 }
 
@@ -367,12 +366,46 @@ h2{
 
   /* End of Side bar css for small screen */
 
+  /* about section */
+
+  #about-section{
+  }
+
+
+
+  #PFP {
+    flex-basis: 100%;
+  }
+
+  .about{
+    flex-basis: 100%;
+  }
+
+  h2{
+    font-size: 25px;
+    margin-bottom: 20px;
+  }
+  
+  .about p {
+    margin-top: 0;
+    font-size: 15px;
+  }
+  
+
+  /* end of about section */
+
+  /* Experience/Skills section */
+  .tab-cont {
+    font-size: 15px;
+  }
+
+  
   .tabs{
     column-gap: 25px;
   
   }
 
-
+  /* End of Experience/Skills section */
 }
 
 /* 
