@@ -337,7 +337,7 @@ h2{
 }
 
 
-@media (max-width: 600px){
+@media only screen and (max-width: 600px){
 
   /* Side bar css for small screen */
   #Menu-out{
