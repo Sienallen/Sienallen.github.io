@@ -340,7 +340,7 @@ h2{
 #profiles{
   display:flex;
   flex-direction: row;
-  column-gap: 35px;
+  /* column-gap: 10px; */
 }
 
 .logo{
@@ -388,7 +388,7 @@ h2{
     width: max-content;
     height: 100vh;
     padding-top: 20px;
-    padding-left: 10px;
+    /* padding-left: 10px; */
     margin-right: -200px;
     z-index: 6;
     transition: 0.5s;
