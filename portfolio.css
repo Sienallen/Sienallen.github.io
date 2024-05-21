@@ -1,15 +1,14 @@
-*{
+* {
   padding: 0;
   margin: 0;
 }
 
-html{
+html {
   overflow-x: hidden;
 }
 
-
-body{
-  background-color:rgb(60, 56, 56);
+body {
+  background-color: rgb(60, 56, 56);
   color: white;
   overflow-x: hidden;
 }
@@ -18,76 +17,70 @@ body{
 
 /* Header section */
 
-
-
-#header-container{
+#header-container {
   position: fixed;
   width: 100%;
   background-color: black;
   z-index: 100;
 }
 
-
-
 /* #header-container{ */
 
-
-
-html{
+html {
   scroll-behavior: smooth;
 }
 
-nav{
+nav {
   background-color: black;
   display: flex;
-  align-items: center; 
+  align-items: center;
   justify-content: space-between;
   flex-wrap: wrap;
   z-index: 5;
-} 
+}
 
-#logo{
+#logo {
   margin: 25px;
   font-size: 25px;
 }
 
-nav ul li{
+nav ul li {
   display: inline-block;
   list-style: none;
   margin-right: 25px;
 }
 
-nav ul li a{
+nav ul li a {
   color: white;
   text-decoration: none;
   font-size: 25px;
   position: relative;
 }
 
-nav ul li a::after{
-  content:'';
+nav ul li a::after {
+  content: '';
   width: 0;
   height: 3px;
   background: red;
   position: absolute;
   left: 0;
   bottom: -6px;
-  transition: .5s;
+  transition: 0.5s;
 }
 
-nav ul li a:hover::after{
+nav ul li a:hover::after {
   width: 100%;
 }
 
-#background-img{
+#background-img {
   font-weight: bold;
   width: 100%;
   height: 100vh;
   background-image: url(Photos/IMG_4124.JPG);
-  background-size: cover; 
+  background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
- /* background-color: black; */
+  /* background-color: black; */
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   background-attachment: fixed;
   border-color: red;
@@ -98,19 +91,17 @@ nav ul li a:hover::after{
   justify-content: center;
 }
 
-
-#intro p{
+#intro p {
   font-size: 35px;
   max-width: max-content;
   background-color: black;
 }
 
-#intro h1{
+#intro h1 {
   font-size: 100px;
   max-width: max-content;
   background-color: black;
   margin-top: 15px;
-
 }
 
 /* End of Header section */
@@ -119,36 +110,35 @@ nav ul li a:hover::after{
 
 /* About section  */
 
-#about-section{
+#about-section {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   padding: 100px 30px 0 30px;
-/*   background-color: red; */
+  /*   background-color: red; */
 }
 
 #PFP {
   flex-basis: 35%;
 }
 
-#PFP img{
+#PFP img {
   width: 100%;
   height: 100%;
   border-radius: 15px;
   object-fit: contain;
 }
 
-.about{
+.about {
   flex-basis: 60%;
   display: flex;
   flex-direction: column;
   margin-left: 15px;
   padding: 15px;
-  
 }
 
-h2{
+h2 {
   font-size: 40px;
   margin-bottom: 20px;
 }
@@ -162,40 +152,37 @@ h2{
 
 /* Experience/Skills section */
 
-
-.tabs{
+.tabs {
   display: flex;
   justify-content: space-around;
   margin: 40px;
-
 }
 
-.tab-links{
+.tab-links {
   color: white;
   font-size: 28px;
   cursor: pointer;
   position: relative;
 }
 
-.tab-links::after{
-  content:'';
+.tab-links::after {
+  content: '';
   width: 0;
   height: 3px;
   background: red;
   position: absolute;
   left: 0;
   bottom: -8px;
-  transition: .5s;
+  transition: 0.5s;
 }
 
-.tab-links.active-link::after{
+.tab-links.active-link::after {
   width: 50%;
 }
 
-.tab-links:hover::after{
+.tab-links:hover::after {
   width: 100%;
 }
-
 
 .tab-cont {
   font-size: 20px;
@@ -203,24 +190,21 @@ h2{
   display: none;
 }
 
-.active-cont{
-  display:block;
+.active-cont {
+  display: block;
 }
-
 
 /* End of Experience/Skills section */
 
 /* Project Section */
 
-#Projects-section{
-  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-/*   background-color: blue ;*/
+#Projects-section {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  /*   background-color: blue ;*/
   padding: 100px 40px 0 40px;
-
 }
 
-
-#project-grid{
+#project-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(250px, 300px));
   grid-gap: 75px;
@@ -231,29 +215,27 @@ h2{
   row-gap: 75px;
   flex-wrap: wrap; */
 
- /*  grid-template-columns: repeat(3, 300px); 
+  /*  grid-template-columns: repeat(3, 300px); 
   grid-gap: 75px; */
 }
 
-.projects{
+.projects {
   border-radius: 10px;
   position: relative;
-  overflow: hidden; 
-  
+  overflow: hidden;
 }
-.projects img{
+.projects img {
   width: 100%;
   height: 350px;
   border-radius: 10px;
   display: block;
-  transition: transform .5s;
+  transition: transform 0.5s;
 }
 
-
-.layer{
+.layer {
   width: 100%;
   height: 0;
-  background: linear-gradient(rgba(0,0,0,0.6), #ff004f);
+  background: linear-gradient(rgba(0, 0, 0, 0.6), #ff004f);
   border-radius: 10px;
   position: absolute;
   top: 0;
@@ -262,26 +244,28 @@ h2{
   /* display: flex; */
   /* justify-content: center; */
   /* flex-direction: column; */
-  transition: height .5s;
+  transition: height 0.5s;
 }
 
-.layer p, h3, a{
+.layer p,
+h3,
+a {
   padding: 0 25px;
-} 
+}
 
-.layer h3{
+.layer h3 {
   padding-top: 25px;
 }
 
-.layer a{
+.layer a {
   padding-top: 15px;
 }
 
-.projects:hover img{
-  transform: scale(1.1)
+.projects:hover img {
+  transform: scale(1.1);
 }
 
-.projects:hover .layer{
+.projects:hover .layer {
   height: 350px;
 }
 
@@ -289,40 +273,34 @@ h2{
 
 /* Contact Info Section */
 
-#Contact-section{
-  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-  padding: 100px 75px;
+#Contact-section {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  padding: 100px 40px;
   width: 100%;
- /*  background-color: green; */
-  
+  /*  background-color: green; */
 }
 
-
-#Contact-title{
- margin-bottom: 50px;
+#Contact-title {
+  margin-bottom: 50px;
 }
 
-
-.contact-list{
+.contact-list {
   padding: 0;
   margin: 0;
   margin-bottom: 30px;
   list-style-type: none;
-
 }
 
-#email{
-  background: url(Photos/iconmonstr-email-10-240.png) no-repeat ;
+/* #email {
+  background: url(Photos/iconmonstr-email-10-240.png) no-repeat;
   background-size: 28px;
   background-position: 10px;
-  height:30px;
+  height: 30px;
   padding-top: 10px;
-  padding-left: 45px;
+  padding-left: 40px;
+} */
 
-}
-
-
-#Resume-button{
+#Resume-button {
   margin-bottom: 50px;
   background-color: rgb(255, 0, 0);
   color: white;
@@ -333,17 +311,17 @@ h2{
   cursor: pointer;
   font-size: 30px;
   font-weight: bold;
-
+  margin-left: -20px;
 }
 
-
-#profiles{
-  display:flex;
+#profiles {
+  display: flex;
   flex-direction: row;
+  margin-left: -25px;
   /* column-gap: 10px; */
 }
 
-.logo{
+.logo {
   width: 50px;
   height: 50px;
   object-fit: contain;
@@ -353,31 +331,25 @@ h2{
 
 /* End of  Main Section */
 
-
-
-
-
 /* css for smaller screens */
 
-.Menu{
+.Menu {
   display: none;
   height: 30px;
   width: 30px;
 }
 
-
-@media only screen and (max-width: 600px){
-
+@media only screen and (max-width: 600px) {
   /* Side bar css for small screen */
-  #Menu-out{
+  #Menu-out {
     display: block;
     padding: 0 40px;
   }
-  #Menu-in{
+  #Menu-in {
     display: block;
   }
 
-  nav ul{
+  nav ul {
     display: flex;
     flex-direction: column;
     row-gap: 30px;
@@ -388,7 +360,6 @@ h2{
     width: max-content;
     height: 100vh;
     padding-top: 20px;
-    /* padding-left: 10px; */
     margin-right: -200px;
     z-index: 6;
     transition: 0.5s;
@@ -398,27 +369,23 @@ h2{
 
   /* about section */
 
-
-
-
   #PFP {
     flex-basis: 100%;
   }
 
-  .about{
+  .about {
     flex-basis: 100%;
   }
 
-  h2{
+  h2 {
     font-size: 25px;
     margin-bottom: 20px;
   }
-  
+
   .about p {
     margin-top: 0;
     font-size: 15px;
   }
-  
 
   /* end of about section */
 
@@ -427,16 +394,14 @@ h2{
     font-size: 15px;
   }
 
-  
-  .tabs{
+  .tabs {
     column-gap: 25px;
-  
   }
 
   /* End of Experience/Skills section */
 }
 
-/* 
+/*
 @media (max-width: 768px){
   profiles{
     grid-template-columns: repeat(2, 1fr);
@@ -451,8 +416,6 @@ h2{
  */
 /* End of Contact Info Section */
 
-
-
 /* Scroll bar customization */
 
 /* width */
@@ -462,17 +425,17 @@ h2{
 
 /* Track */
 ::-webkit-scrollbar-track {
-  background: #f1f1f1; 
+  background: #f1f1f1;
 }
- 
+
 /* Handle */
 ::-webkit-scrollbar-thumb {
-  background: #888; 
+  background: #888;
 }
 
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
-  background: #555; 
+  background: #555;
 }
 
 /* Scroll bar customization */
