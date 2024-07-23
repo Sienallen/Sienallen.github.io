@@ -17,9 +17,13 @@ function changeTab(newLink){
 
 var temp = document.getElementById("sideBar")
 function openMenu(){
-  temp.style.marginRight = "0px";
+  temp.style.right = "0";
+  /* temp.style.display = 'flex'; */
+  /* temp.classList.add('open') */
 }
 
 function closeMenu(){
-  temp.style.marginRight = "-200px";
+  temp.style.right = "-100%";
+  /* temp.style.display = 'none' */
+  t/* emp.classList.remove('open') */
 }

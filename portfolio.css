@@ -347,23 +347,29 @@ a {
   }
   #Menu-in {
     display: block;
+    padding: 0 20px;
   }
 
   nav ul {
     display: flex;
     flex-direction: column;
     row-gap: 30px;
-    background: red;
+    background: rgb(184, 3, 3);
     position: fixed;
     top: 0;
-    right: 0;
+    right: -100%;
     width: max-content;
     height: 100vh;
     padding-top: 20px;
-    margin-right: -200px;
+    margin-right: 0;
     z-index: 6;
-    transition: 0.5s;
+    transition: 0.5s ease-out;
   }
+/* 
+  .open{
+    display: flex;
+  
+  } */
 
   /* End of Side bar css for small screen */
 
