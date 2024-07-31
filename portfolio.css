@@ -291,6 +291,11 @@ a {
   list-style-type: none;
 }
 
+.links{
+  display: flex;
+  flex-direction: column;
+}
+
 /* #email {
   background: url(Photos/iconmonstr-email-10-240.png) no-repeat;
   background-size: 28px;
