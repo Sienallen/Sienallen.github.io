@@ -194,6 +194,11 @@ h2 {
   display: block;
 }
 
+.description {
+  font-size: 1.1rem;
+  padding-left: 15px;
+}
+
 /* End of Experience/Skills section */
 
 /* Project Section */
@@ -291,7 +296,7 @@ a {
   list-style-type: none;
 }
 
-.links{
+.links {
   display: flex;
   flex-direction: column;
 }
@@ -370,7 +375,7 @@ a {
     z-index: 6;
     transition: 0.5s ease-out;
   }
-/* 
+  /* 
   .open{
     display: flex;
   
