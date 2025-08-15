@@ -25,5 +25,5 @@ function openMenu(){
 function closeMenu(){
   temp.style.right = "-100%";
   /* temp.style.display = 'none' */
-  t/* emp.classList.remove('open') */
+  /* emp.classList.remove('open') */
 }
